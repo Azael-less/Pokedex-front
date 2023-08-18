@@ -1,0 +1,44 @@
+/* Filtrado.module.css */
+.filter-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Línea horizontal */
+    padding: 10px;
+    background-color: rgb(177, 182, 214);
+}
+
+.filter-item {
+    margin: 0 10px;
+    color: #000000;
+    background-color: rgb(177, 182, 214);
+
+}
+
+.filter-text {
+  color: white;
+}
+
+select {
+    appearance: none;
+    padding: 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(135, 119, 179);
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Estilo para cuando el select está enfocado */
+  select:focus {
+    outline: none;
+    border-color: #86b7fe;
+  }
+  
+  /* Estilo para cuando el select tiene una opción seleccionada */
+  select option:checked {
+    background-color: #86b7fe;
+    color: white;
+  }

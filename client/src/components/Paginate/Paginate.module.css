@@ -1,0 +1,45 @@
+.pagnav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.navli {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.navli:hover {
+  color: #f39c12;
+}
+
+.navlink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(177, 182, 214);
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.circle:hover {
+  background-color: #2e1e54;
+}

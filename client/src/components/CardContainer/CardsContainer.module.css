@@ -1,0 +1,103 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    /* ...otros estilos... */
+margin-top: 20px; 
+
+} 
+.paginateContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginateList {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.paginateItem {
+  background-color: #007bff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginateLink {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.paginateLink:hover {
+  background-color: #0056b3;
+}
+
+.pagnav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.navli {
+  background-color: #007bff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navli a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navli a:hover {
+  background-color: #0056b3;
+}
+.container {
+  position: relative;
+  padding-bottom: 40px; /* Ajustar el espacio en la parte inferior para dejar espacio al paginado */
+}
+
